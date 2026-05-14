@@ -1,10 +1,9 @@
-"""
-Creates a weekly timeline of RAKE‑extracted keyword topics.
-1. Reads a CSV file containing RAKE phrases and scores.
-2. Maps each phrase to a high‑level topic based on regular expression patterns.
-3. Counts how many top phrases of each topic occur in every week.
-4. Saves the counts table and plots a stacked bar chart showing topic volume over time.
-"""
+# Creates a weekly timeline of RAKE‑extracted keyword topics.
+# 1. Reads a CSV file containing RAKE phrases and scores.
+# 2. Maps each phrase to a high‑level topic based on regular expression patterns.
+# 3. Counts how many top phrases of each topic occur in every week.
+# 4. Saves the counts table and plots a stacked bar chart showing topic volume over time.
+
 
 # Standard library imports
 import re  # Regular expressions for pattern matching

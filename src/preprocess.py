@@ -212,7 +212,7 @@ def process_all() -> None:
     print(f"Parquet corpus written -> {parquet_path}")
 
 
-# Entry point ---------------------------------------------------------------
+# Entry point
 
 if __name__ == "__main__":
     process_all()

@@ -21,22 +21,22 @@ MAX_WORDS = 6                                   # ignore very long phrases
 # Custom domain‑specific words that should never appear in a key phrase
 CUSTOM_STOP = {
     # topical words removed because they dominate without adding meaning
-    "black", "lives", "matter", "british", "south", "asian", "asians", "football",
+    "black", "british", "south", "asian", "asians", "lives", "matter", "football",
     "posted", "ago", "today", "yesterday", "tomorrow", "tonight",
     "minute", "minutes", "hour", "hours", "day", "days", "week", "weeks",
     "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
     "january", "february", "march", "april", "may", "june", "july", "august",
     "september", "october", "november", "december", "attribution",
-    # presentation or filler words
+    # presentation/ filler words
     "update", "updates", "updated", "live", "latest", "breaking", "highlight",
     "highlights", "video", "videos", "watch", "read", "click", "share", "story",
     "stories", "report", "reports", "reaction", "analysis", "recap", "edition",
     "news", "homepage", "comment", "following", "follow", "close", "panel",
     "app", "collection", "preview", "topic", "appear",
-    # site or domain markers
+    # site markers
     "bbc", "skysports", "guardian", "mirror", "com", "co", "uk", "http", "https",
     "sky", "twitter", "facebook",
-    # age markers frequently appended by some feeds
+    # age markers
     "1d", "2d", "3d", "4d", "5d", "6d", "1h", "2h", "3h", "4h", "5h", "6h", "7h",
     "8h", "9h", "10h", "11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h",
     "19h", "20h", "21h", "22h", "23h", "commented", "comments",

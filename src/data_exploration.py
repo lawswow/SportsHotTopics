@@ -1,10 +1,10 @@
-"""
-1. Read token data grouped by week.
-2. Build a CountVectorizer on the weekly corpus.
-3. Collect per week top words and statistics.
-4. Save reports to CSV.
-5. Create and save a corpus word cloud image.
-"""
+
+# 1. Read token data grouped by week.
+# 2. Build a CountVectorizer on the weekly corpus.
+# 3. Collect per week top words and statistics.
+# 4. Save reports to CSV.
+# 5. Create and save a corpus word cloud image.
+
 
 import pathlib  # Path operations
 import csv  # Writing CSV files
