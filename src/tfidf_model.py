@@ -1,11 +1,10 @@
-"""
-1. Read a CSV file of cleaned tokens (one row per article with a week label).
-2. Combine rows that belong to the same week into a single document string.
-3. Fit a scikit-learn TfidfVectorizer over the weekly corpus.
-4. Print the top terms for a manual sanity check.
-5. Build a word cloud image for every week using the TF-IDF weights.
-6. Pickle the trained vectoriser and store the TF-IDF matrix on disk.
-"""
+
+# 1. Read a CSV file of cleaned tokens (one row per article with a week label).
+# 2. Combine rows that belong to the same week into a single document string.
+# 3. Fit a scikit-learn TfidfVectorizer over the weekly corpus.
+# 4. Print the top terms for a manual sanity check.
+# 5. Build a word cloud image for every week using the TF-IDF weights.
+# 6. Pickle the trained vectoriser and store the TF-IDF matrix on disk.
 
 # Standard library imports
 import pathlib  # Path operations independent of operating system
